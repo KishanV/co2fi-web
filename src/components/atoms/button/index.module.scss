@@ -1,0 +1,38 @@
+.Button {
+  display: flex;
+  position: relative;
+  border-radius: 100px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  &.primary {
+    background: #fff;
+    color: black;
+    &:hover {
+      background: #d4d4d4;
+      color: rgb(70, 70, 70);
+    }
+  }
+
+  &.secondary {
+    background: radial-gradient(
+      129.81% 129.81% at 44.17% -20.19%,
+      #31456a 0%,
+      #030407 100%
+    );
+    color: white;
+    &:hover {
+      color: gray;
+    }
+  }
+}
+
+.light {
+  background: #f0f7ff;
+  border: 0.4px solid #bbd2f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  &:hover {
+    background: #e6f1ff;
+  }
+}
