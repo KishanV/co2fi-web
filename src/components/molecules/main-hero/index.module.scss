@@ -1,42 +1,5 @@
-.Button {
-  display: flex;
-  position: relative;
-  border-radius: 12px;
-  padding-left: 16px;
-  padding-right: 16px;
-
-  &.primary {
-    background: #00bbff;
-    // box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.2),
-    // inset 2px 2px 4px rgba(255, 255, 255, 0.4);
-    color: black;
-    &:hover {
-      // color: white;
-    }
-  }
-
-  &.secondary {
-    background: radial-gradient(
-      129.81% 129.81% at 44.17% -20.19%,
-      #31456a 0%,
-      #030407 100%
-    );
-    // box-shadow: inset -2px -4px 4px rgba(255, 255, 255, 0.24),
-    //   inset 2px 4px 8px rgba(14, 22, 35, 0.04);
-    color: white;
-    &:hover {
-      color: gray;
-    }
-  }
-}
-
-.light {
-  background: #f0f7ff;
-  border: 0.4px solid #bbd2f1;
-  box-sizing: border-box;
-  // box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.2), inset 2px 2px 4px rgba(255, 255, 255, 0.4);
-  border-radius: 8px;
-  &:hover {
-    background: #e6f1ff;
-  }
+.fancyText {
+  background: -webkit-linear-gradient(#2bff03,  #00d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
