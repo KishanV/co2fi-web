@@ -6,23 +6,48 @@
   padding-right: 16px;
 
   &.primary {
-    background: #fff;
-    color: black;
+    background: black;
+    color: white;
+    border-radius: 100px;
+    background-clip: padding-box;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -2px;
+      border-radius: inherit;
+      background: linear-gradient(to bottom, #ffe600, 80%, #928946);
+    }
     &:hover {
-      background: #d4d4d4;
-      color: rgb(70, 70, 70);
+      background: #333;
+      color: #fff;
     }
   }
 
   &.secondary {
-    background: radial-gradient(
-      129.81% 129.81% at 44.17% -20.19%,
-      #31456a 0%,
-      #030407 100%
-    );
-    color: white;
+    background: black;
+    color: #B2B2B2;
+    border-radius: 100px;
+    background-clip: padding-box;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -2px;
+      border-radius: inherit;
+      background: linear-gradient(to bottom, #B2B2B2, 80%, #B2B2B2);
+    }
     &:hover {
-      color: gray;
+      background: #333;
+      color: #fff;
     }
   }
 }
