@@ -9,7 +9,7 @@ export const MainHero = ({ ...props }: DivProps) => {
       <ContentLimiter className="relative z-10">
         <div className="flex flex-col w-100%  gap-1 pl-60 pr-60 text-white font-bold items-center justify-center mt-50 text-36">
           <div className={"text-64"}>
-            Co2.Fi<span className={styles.fancyText}>nance</span>
+            CO2-Fi<span className={styles.fancyText}>nance</span>
           </div>
           <div>
             <span className={styles.fancyText}>BUY</span> CARBON

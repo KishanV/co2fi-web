@@ -20,9 +20,9 @@ export const Tokens = ({ ...props }: DivProps) => {
                 ecosystem and to foster future innovative products.
               </div>
               <div>
-                <a href="https://app.gitbook.com/s/7lrrkpYa1xTnB0J07iN9/5.-tokenomics">
+                <a href="https://xavier-pye.gitbook.io/co2fi.io/5.-tokenomics">
                   <div className="h-full flex-1 flex justify-start items-center text-18 text-white gap-3 text-yellow cursor-pointer">
-                    See Tokenomics{" "}
+                    See Tokenomics
                     <img className="h-17 w-17" src="/more-arrow.svg" />
                   </div>
                 </a>
