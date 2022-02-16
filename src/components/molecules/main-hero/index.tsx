@@ -9,7 +9,7 @@ export const MainHero = ({ ...props }: DivProps) => {
       <ContentLimiter className="relative z-10">
         <div className="flex flex-col w-100%  gap-1 pl-60 pr-60 text-white font-bold items-center justify-center mt-50 text-36">
           <div className={"text-64"}>
-            Co2.F<span className={styles.fancyText}>inance</span>
+            Co2.Fi<span className={styles.fancyText}>nance</span>
           </div>
           <div>
             <span className={styles.fancyText}>BUY</span> CARBON
@@ -20,10 +20,10 @@ export const MainHero = ({ ...props }: DivProps) => {
           <div>
             <span className={styles.fancyText}>LEND</span> CARBON
           </div>
-          <div className="flex flex-row gap-6">
-            <Button className="h-40 w-fit mt-50">Contact Us</Button>
+          <div className="flex flex-col gap-6 items-center mt-50 md:flex-row">
+            <Button className="h-40 w-fit">Contact Us</Button>
             <a href="https://xavier-pye.gitbook.io/co2fi.io/">
-              <Button variant="secondary" className="h-40 w-fit mt-50">
+              <Button variant="secondary" className="h-40 w-fit">
                 Documentation
               </Button>
             </a>

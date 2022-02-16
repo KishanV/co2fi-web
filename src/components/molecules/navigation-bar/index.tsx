@@ -10,8 +10,8 @@ export const NavigationBar = ({ ...props }: DivProps) => {
           <div className="flex-shrink flex items-center justify-center">
             <img src="logo.svg" />
           </div>
-          <div className="flex-1"></div>
-          <div className="flex-shrink text-18 flex items-center justify-center  text-white gap-10">
+          <div className="flex-1 invisible md:visible"></div>
+          <div className="flex-shrink text-18 flex items-center justify-center  text-white gap-10 invisible lg:visible">
             <div>Home</div>
             <div>Learn</div>
             <div>Community</div>

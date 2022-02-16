@@ -9,9 +9,9 @@ export const Tokens = ({ ...props }: DivProps) => {
       <ContentLimiter className="relative z-10 flex justify-center items-center">
         <div className="flex flex-col w-100% gap-1 text-white   mt-70 text-36">
           <div
-            className={`text-1  bg-dark-l1 p-25 rounded-20 flex flex-row gap-6 relative m-2`}
+            className={`text-1 bg-dark-l1 p-25 rounded-20 flex flex-col lg:flex-row gap-6 relative m-2`}
           >
-            <div className="flex flex-col gap-5 w-140% p-25">
+            <div className="flex flex-col gap-5 p-25">
               <div className={"text-green flex-col text-24"}>
                 Platform Token
               </div>
@@ -20,7 +20,7 @@ export const Tokens = ({ ...props }: DivProps) => {
                 ecosystem and future innovative products.
               </div>
             </div>
-            <div className="flex-row flex gap-5">
+            <div className="flex-col flex gap-5 md:flex-row">
               <div className="flex flex-1 flex-col gap-5 bg-black rounded-10 p-25">
                 <div className={"text-green flex-row flex text-24"}>
                   <div className="flex-1">Co2Fi</div>

@@ -11,10 +11,10 @@ export const KeyPointes = () => {
               className="h-60 w-60"
               src="key-points-icons/deliverable-verified-carbon.svg"
             />
-            <div className={`${styles.fancyText} text-24`}>
+            <div className={`${styles.fancyText} text-24 text-center`}>
               DELIVERABLE VERIFIED CARBON
             </div>
-            <div className="text-18">
+            <div className="text-18  text-center">
               ACC Token delivery straight from AirCarbon
             </div>
           </div>
@@ -23,10 +23,10 @@ export const KeyPointes = () => {
               className="h-60 w-60"
               src="key-points-icons/pricing-oracle.svg"
             />
-            <div className={`${styles.fancyText} text-24`}>
+            <div className={`${styles.fancyText} text-24  text-center`}>
               REAL TIME CARBON PRICING ORACLE
             </div>
-            <div className="text-18">
+            <div className="text-18  text-center">
               Pricing data pulled from AirCarbon Exchange
             </div>
           </div>
@@ -35,10 +35,10 @@ export const KeyPointes = () => {
               className="h-60 w-60"
               src="key-points-icons/fully-collateralize.svg"
             />
-            <div className={`${styles.fancyText} text-24`}>
+            <div className={`${styles.fancyText} text-24  text-center`}>
               FULLY COLLATERALIZE LOANS
             </div>
-            <div className="text-18">
+            <div className="text-18  text-center">
               ACC Token delivery straight from AirCarbon
             </div>
           </div>
@@ -47,10 +47,10 @@ export const KeyPointes = () => {
               className="h-60 w-60"
               src="key-points-icons/deliverable-verified-carbon.svg"
             />
-            <div className={`${styles.fancyText} text-24`}>
-              CONTINUOUS TEILD
+            <div className={`${styles.fancyText} text-24  text-center`}>
+              CONTINUOUS FELID
             </div>
-            <div className="text-18">Deposits accrue USDC yield 24/7</div>
+            <div className="text-18  text-center">Deposits accrue USDC yield 24/7</div>
           </div>
         </div>
       </ContentLimiter>
