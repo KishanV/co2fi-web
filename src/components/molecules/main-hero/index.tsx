@@ -21,7 +21,7 @@ export const MainHero = ({ ...props }: DivProps) => {
             <span className={styles.fancyText}>LEND</span> CARBON
           </div>
           <div className="flex flex-col gap-6 items-center mt-50 md:flex-row">
-            <Button className="h-40 w-fit">Contact Us</Button>
+            <Button className="h-40 w-fit">Launch App</Button>
             <a href="https://xavier-pye.gitbook.io/co2fi.io/">
               <Button variant="secondary" className="h-40 w-fit">
                 Documentation

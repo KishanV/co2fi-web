@@ -19,16 +19,20 @@ export const NavigationBar = ({ ...props }: DivProps) => {
   function drawMenu() {
     return (
       <>
-        <div>Home</div>
-        <div>Learn</div>
-        <div>Community</div>
-        <div>Developers</div>
+        <div className="cursor-pointer">Home</div>
+        <div className="cursor-pointer">Learn</div>
+        <div className="cursor-pointer">Community</div>
+        <div className="cursor-pointer">Developers</div>
       </>
     );
   }
 
   function drawButton() {
-    return <Button className="h-40">Launch App</Button>;
+    return (
+      <a href="https://co2fi.vercel.app/">
+        <Button className="h-40">Launch App</Button>
+      </a>
+    );
   }
 
   return (
