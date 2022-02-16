@@ -19,17 +19,20 @@ export const NavigationBar = ({ ...props }: DivProps) => {
   function drawMenu() {
     return (
       <>
-        <div className="cursor-pointer">Home</div>
-        <div className="cursor-pointer">Learn</div>
+        <a href="/">
+          <div className="cursor-pointer">Home</div>
+        </a>
+        <a href="https://maize-butterfly-741.notion.site/Getting-Started-c69b9250f6a64d76871f28e76c03231a">
+          <div className="cursor-pointer">Learn</div>
+        </a>
         <div className="cursor-pointer">Community</div>
-        <div className="cursor-pointer">Developers</div>
       </>
     );
   }
 
   function drawButton() {
     return (
-      <a href="https://co2fi.vercel.app/">
+      <a href="https://co2fi-app.vercel.app/">
         <Button className="h-40">Launch App</Button>
       </a>
     );
@@ -39,9 +42,11 @@ export const NavigationBar = ({ ...props }: DivProps) => {
     <ContentHolder>
       <ContentLimiter>
         <div className="flex h-62 w-full mt-46 z-10 relative">
-          <div className="flex-shrink flex items-center justify-center">
-            <img src="logo.svg" />
-          </div>
+          <a href="/">
+            <div className="flex-shrink flex items-center justify-center">
+              <img src="logo.svg" />
+            </div>
+          </a>
           <div className="flex-1"></div>
           <div
             className="flex-shrink pl-20 pr-20 text-18 flex lg:hidden justify-center items-center cursor-pointer"

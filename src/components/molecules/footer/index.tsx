@@ -15,20 +15,26 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col gap-5 items-center justify-center md:justify-start md:items-start">
             <div className="text-24 mb-30 text-white">Company</div>
-            <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
-              <img src="/social-icons/discord.svg" /> Discord
-            </div>
-            <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
-              <img src="/social-icons/tweeter.svg" /> Twitter
-            </div>
-            <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
-              <img src="/social-icons/telegram.svg" /> Telegram
-            </div>
+            <a href="https://discord.gg/fCkKFwwC">
+              <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
+                <img src="/social-icons/discord.svg" /> Discord
+              </div>
+            </a>
+            <a href="https://twitter.com/co2fi_io">
+              <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
+                <img src="/social-icons/tweeter.svg" /> Twitter
+              </div>
+            </a>
+            <a href="https://t.me/CO2fi">
+              <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
+                <img src="/social-icons/telegram.svg" /> Telegram
+              </div>
+            </a>
           </div>
           <div className="flex flex-col gap-5 items-center justify-center md:justify-start md:items-start">
             <div className="text-24 mb-30 text-white">Community</div>
             <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
-              <img src="/social-icons/tweeter.svg" /> Github
+              <img src="/social-icons/github.svg" /> Github
             </div>
             <a href="https://xavier-pye.gitbook.io/co2fi.io/">
               <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
