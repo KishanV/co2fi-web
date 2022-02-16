@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <ContentHolder className="relative text-white bg-black mt-130">
       <ContentLimiter className="relative flex justify-center items-center">
-        <div className="flex-1 flex w-100% lg:w-3/5 text-18 text-zinc-400 justify-between mb-50  flex-col md:flex-row gap-20 md:gap-0">
+        <div className="flex-1 flex w-100% lg:w-70% md:w-85% text-18 text-zinc-400 justify-between mb-50  flex-col md:flex-row gap-20 md:gap-0">
           <div className="flex-shrink flex flex-col items-center justify-center md:justify-start md:items-start">
             <div className="flex-auto">
               <div className="flex-shrink flex mb-10">
