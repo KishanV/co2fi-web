@@ -19,10 +19,10 @@ export const NavigationBar = ({ ...props }: DivProps) => {
   function drawMenu() {
     return (
       <>
-        <div>Home</div>
-        <div>Learn</div>
-        <div>Community</div>
-        <div>Developers</div>
+        <div className="cursor-pointer">Home</div>
+        <div className="cursor-pointer">Learn</div>
+        <div className="cursor-pointer">Community</div>
+        <div className="cursor-pointer">Developers</div>
       </>
     );
   }
