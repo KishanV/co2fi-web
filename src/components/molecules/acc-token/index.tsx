@@ -17,8 +17,7 @@ export const AccToken = ({ ...props }: DivProps) => {
             <div className="flex flex-col gap-5">
               <div
                 className={
-                  keyPointsStyles.fancyText +
-                  " flex-col text-24 text-left"
+                  keyPointsStyles.fancyText + " flex-col text-24 text-left"
                 }
               >
                 ACC Token
@@ -26,7 +25,7 @@ export const AccToken = ({ ...props }: DivProps) => {
               <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
                 <div className={"flex flex-row text-18 items-center gap-3"}>
                   <div className="bg-yellow h-8 w-8 rounded-10" />
-                  <div className="flex-1">Deliverable</div>
+                  <div className="flex-1">Deliverable*</div>
                 </div>
                 <div className={"flex flex-row text-18 items-center gap-3"}>
                   <div className="bg-yellow h-8 w-8 rounded-10" />
@@ -35,7 +34,8 @@ export const AccToken = ({ ...props }: DivProps) => {
                 <div className={"flex flex-row text-18 items-center gap-3"}>
                   <div className="bg-yellow h-8 w-8 rounded-10" />
                   <div className="flex-1">
-                    Gold standard and CLimate Action Reserve
+                    Credits sourced from Verra, Gold Standard and Climate Action
+                    Reserve
                   </div>
                 </div>
                 <div className={"flex flex-row text-18 items-center  gap-3"}>
@@ -44,11 +44,11 @@ export const AccToken = ({ ...props }: DivProps) => {
                     ACC Token trustee in AirCarbon Exchange
                   </div>
                 </div>
-                <div className={"flex flex-row text-18 items-center  gap-3"}>
-                  <div className="bg-yellow h-8 w-8 rounded-10" />
-                  <div className="flex-1">
-                    ACC Token trustee in AirCarbon Exchange
-                  </div>
+                <div className="col-span-1 lg:col-span-2">
+                  <span className="text-14 text-gray ">
+                    * delivery via AirCarbon, decentralized retirement coming in
+                    phase 2
+                  </span>
                 </div>
               </div>
               <div className="h-full flex-1 flex justify-end items-center ml-20">

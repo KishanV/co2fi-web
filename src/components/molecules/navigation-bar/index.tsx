@@ -28,7 +28,11 @@ export const NavigationBar = ({ ...props }: DivProps) => {
   }
 
   function drawButton() {
-    return <Button className="h-40">Launch App</Button>;
+    return (
+      <a href="https://co2fi.vercel.app/">
+        <Button className="h-40">Launch App</Button>
+      </a>
+    );
   }
 
   return (

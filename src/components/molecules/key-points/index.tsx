@@ -15,7 +15,7 @@ export const KeyPointes = () => {
               DELIVERABLE VERIFIED CARBON
             </div>
             <div className="text-18  text-center">
-              ACC Token delivery straight from AirCarbon
+              ACC Token delivery straight via AirCarbon
             </div>
           </div>
           <div className="flex flex-col gap-2 items-center">
@@ -39,7 +39,7 @@ export const KeyPointes = () => {
               FULLY COLLATERALIZE LOANS
             </div>
             <div className="text-18  text-center">
-              ACC Token delivery straight from AirCarbon
+              Minimum risk for depositors
             </div>
           </div>
           <div className="flex flex-col gap-2 items-center">
@@ -48,9 +48,11 @@ export const KeyPointes = () => {
               src="key-points-icons/deliverable-verified-carbon.svg"
             />
             <div className={`${styles.fancyText} text-24  text-center`}>
-              CONTINUOUS FELID
+              CONTINUOUS YIELD
             </div>
-            <div className="text-18  text-center">Deposits accrue USDC yield 24/7</div>
+            <div className="text-18  text-center">
+              Deposits accrue USDC yield 24/7
+            </div>
           </div>
         </div>
       </ContentLimiter>
