@@ -6,7 +6,7 @@ export const LearnMore = ({ ...props }: DivProps) => {
     <ContentHolder className="relative z-0 overflow-hidden">
       <ContentLimiter className="relative z-10">
         <div className="flex flex-col w-100%  gap-1 pl-60 pr-60 text-white items-center justify-center  mt-70 text-36 ">
-          <a href="https://maize-butterfly-741.notion.site/Getting-Started-c69b9250f6a64d76871f28e76c03231a">
+          <a href="https://maize-butterfly-741.notion.site/Buying-CO2fi-HCO2-6b271dae119a4acc90e672656a68b8ef">
             <div
               className={
                 "text-18 border border-gray bg-dark-l1 p-20 rounded-10"

@@ -45,7 +45,7 @@ export const KeyPointes = () => {
           <div className="flex flex-col gap-2 items-center">
             <img
               className="h-60 w-60"
-              src="key-points-icons/deliverable-verified-carbon.svg"
+              src="key-points-icons/continuous-yield.svg"
             />
             <div className={`${styles.fancyText} text-24  text-center`}>
               CONTINUOUS YIELD
