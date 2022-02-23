@@ -3,6 +3,8 @@ import { Button } from "../../atoms/button";
 import { DivProps } from "../../utils";
 import { useEffect, useState } from "react";
 
+const APP_URL = process.env.APP_URL;
+
 export const NavigationBar = ({ ...props }: DivProps) => {
   const [isOpen, setOpen] = useState(false);
 
@@ -32,7 +34,7 @@ export const NavigationBar = ({ ...props }: DivProps) => {
 
   function drawButton() {
     return (
-      <a href="https://co2fi-app.vercel.app/">
+      <a href={`${APP_URL}`}>
         <Button className="h-40">Launch App</Button>
       </a>
     );
