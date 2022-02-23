@@ -1,0 +1,21 @@
+.Model {
+  display: flex;
+  position: relative;
+  border-radius: 100px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  background-clip: padding-box;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -2px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #ffe600, 80%, #928946);
+  }
+}

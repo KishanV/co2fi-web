@@ -1,0 +1,12 @@
+.modal {
+  > :global(.ant-modal-content) {
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: min-content;
+    margin: auto;
+    > :global(.ant-modal-body) {
+      font-size: 12px;
+    }
+  }
+}
