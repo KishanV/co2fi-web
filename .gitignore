@@ -18,3 +18,4 @@ log.csv
 work.csv
 out
 .DS_Store
+~/.env.example
