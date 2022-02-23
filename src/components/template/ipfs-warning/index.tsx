@@ -34,12 +34,13 @@ export const IpfsWarning = (props: {
               <img className="h-60" src="logo.svg" />
             </div>
             <div className="text-center mt-30 mb-30">
-              By accessing this link you are leaving aave.com and are being
-              redirected to a third party, independent website. This redirect
-              takes you to a community deployed and maintained instance of the
-              open source Aave front end, hosted and served on the distributed,
-              peer-to-peer file network known as the Interplanetary File System
-              (IPFS).
+              By accessing this link you are leaving co2fi.io and are being
+              redirected to a app.co2fi.io <br />
+              <br />
+              This redirect takes you to a community deployed and maintained
+              instance of the open source app.co2fi.io front end, hosted and
+              served on the distributed, peer-to-peer file network known as the
+              Interplanetary File System (IPFS).
             </div>
             <div className="flex justify-center flex-row gap-4 mt-30 mb-30">
               <Checkbox
