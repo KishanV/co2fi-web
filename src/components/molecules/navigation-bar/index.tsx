@@ -2,11 +2,12 @@ import { ContentHolder, ContentLimiter } from "../../atoms/content";
 import { Button } from "../../atoms/button";
 import { DivProps } from "../../utils";
 import { useEffect, useState } from "react";
-
-const APP_URL = process.env.APP_URL;
+import { Modal } from "../../atoms/model";
+import { IpfsWarning } from "../../template/ipfs-warning";
 
 export const NavigationBar = ({ ...props }: DivProps) => {
   const [isOpen, setOpen] = useState(false);
+  const [isIpfsWaringOpen, setIpfsWaringOpen] = useState(false);
 
   useEffect(() => {
     window.addEventListener("resize", () => {
@@ -34,9 +35,15 @@ export const NavigationBar = ({ ...props }: DivProps) => {
 
   function drawButton() {
     return (
-      <a href={`${APP_URL}`}>
-        <Button className="h-40">Launch App</Button>
-      </a>
+      <>
+        <Button className="h-40" onClick={() => setIpfsWaringOpen(true)}>
+          Launch App
+        </Button>
+        <IpfsWarning
+          onClose={() => setIpfsWaringOpen(false)}
+          visible={isIpfsWaringOpen}
+        />
+      </>
     );
   }
 

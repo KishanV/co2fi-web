@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap");
 
+@import "antd/lib/modal/style/index";
+@import "antd/lib/checkbox/style/index";
+
 html,
 body {
   padding: 0;
@@ -22,4 +25,8 @@ video {
 
 * {
   box-sizing: border-box;
+}
+
+.ant-modal-wrap {
+  background: rgba(0, 0, 0, 0.5);
 }
