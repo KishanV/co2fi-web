@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
-import { ButtonProps, DivProps } from "../../utils";
+import { ButtonProps } from "../../utils";
 
 export const Button = ({
   children,
