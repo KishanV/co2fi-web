@@ -14,7 +14,7 @@ export const LearnMore = ({ ...props }: DivProps) => {
             >
               <div className="flex flex-col gap-6 lg:gap-0 md:flex-row justify-self-stretch">
                 <div className="flex-col">
-                  You can Buy Co2Fi and ACC Token Via Sushi swap on polygon(L2)
+                  You can buy CO2Fi and ACC token via SushiSwap on Polygon(L2)
                   <br />
                   <span className="text-14 text-gray">
                     Click to learn more for more step by step instructions
