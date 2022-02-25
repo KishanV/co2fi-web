@@ -15,7 +15,6 @@ export const NavigationBar = ({ ...props }: DivProps) => {
       if (clientWidth > 1022) {
         if (!isOpen) setOpen(false);
       }
-      console.log(clientWidth);
     });
   }, []);
 
@@ -28,7 +27,9 @@ export const NavigationBar = ({ ...props }: DivProps) => {
         <a href="https://maize-butterfly-741.notion.site/Getting-Started-c69b9250f6a64d76871f28e76c03231a">
           <div className="cursor-pointer">Learn</div>
         </a>
-        <div className="cursor-pointer">Community</div>
+        <a href="https://discord.gg/vZJdfNf4">
+          <div className="cursor-pointer">Community</div>
+        </a>
       </>
     );
   }

@@ -15,7 +15,7 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col gap-5 items-center justify-center md:justify-start md:items-start">
             <div className="text-24 mb-30 text-white">Company</div>
-            <a href="https://discord.gg/fCkKFwwC">
+            <a href="https://discord.gg/vZJdfNf4">
               <div className="flex flex-row gap-3 text-gray items-center cursor-pointer">
                 <img src="/social-icons/discord.svg" /> Discord
               </div>
