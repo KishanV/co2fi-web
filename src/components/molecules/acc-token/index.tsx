@@ -48,7 +48,7 @@ export const AccToken = ({ ...props }: DivProps) => {
                   <div className="col-span-1 lg:col-span-2">
                     <span className="text-14 text-gray ">
                       * delivery via AirCarbon, decentralized retirement coming
-                      in phase 2
+                      in phase 4
                     </span>
                   </div>
                 </div>
