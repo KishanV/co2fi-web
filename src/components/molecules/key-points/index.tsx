@@ -27,7 +27,7 @@ export const KeyPointes = () => {
               REAL TIME CARBON PRICING ORACLE
             </div>
             <div className="text-18  text-center">
-              Pricing data pulled from AirCarbon Exchange
+              Pricing data pulled from DEX
             </div>
           </div>
           <div className="flex flex-col gap-2 items-center">
