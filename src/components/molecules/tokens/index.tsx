@@ -16,8 +16,12 @@ export const Tokens = ({ ...props }: DivProps) => {
                 Platform Token
               </div>
               <div className="text-18 text-white">
-                CO2fi operates a dual token model to enable a synergistic
-                ecosystem and to foster future innovative products.
+                CO2Fi operates an evolutionary uni token model, the HCO2 has two
+                distinct life periods, a stacking period where yield is accrued
+                in the HCO2 Token and a locking period where yield is returned
+                through platform fees. This split lifecycle enables the building
+                of the platform War Chest which will act as the financial
+                reserve in case of a shortfall event (see white paper)
               </div>
               <div>
                 <a href="https://xavier-pye.gitbook.io/co2fi.io/5.-tokenomics">
@@ -29,31 +33,15 @@ export const Tokens = ({ ...props }: DivProps) => {
               </div>
             </div>
             <div className="flex-col flex gap-5 md:flex-row">
-              <div className="flex flex-1 flex-col gap-5 bg-black rounded-10 p-25">
-                <div className={"text-green flex-row flex text-24"}>
-                  <div className="flex-1">Co2Fi</div>
-                  <img src="/tokens/co2fi.svg" />
-                </div>
-                <div className="text-18 text-white mt-50">
-                  CO2Fi is a limited supply revenue token.
-                  <br />
-                  <br />
-                  Holders accrue fees from the platforms spread. Staking locks
-                  in a higher percentage of fees relative to each token
-                </div>
-              </div>
               <div className="flex  flex-1 flex-col gap-5 bg-black rounded-10 p-25 ">
                 <div className={"text-green flex-row flex text-24 "}>
                   <div className="flex-1">HCO2</div>
                   <img src="/tokens/hco2.svg" />
                 </div>
                 <div className="text-18 text-white mt-50">
-                  HCO2 is paid out to platform depositors in addition to
-                  interest in USDC.
-                  <br />
-                  <br />
-                  HCO2 may be staked in the safety module for APR, and a portion
-                  of platform fees
+                  HCO2 is a limited supply revenue token. Holder’s accrue yield
+                  through staking. After the 2 year staking period, holders
+                  receive platform fees through locking their tokens.
                 </div>
               </div>
             </div>
